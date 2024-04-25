@@ -39,9 +39,7 @@ pdf = FPDF()
 
 pdf.add_page()
 
-template_ficha = r"C:\Users\renam\OneDrive\Área de Trabalho\git_github\projeto_imc\template_ficha.png"
-
-pdf.image(template_ficha, x = 0, y = 0)
+pdf.image('template_ficha', x = 0, y = 0)
 
 pdf.set_font('Arial', '', 14)
 
